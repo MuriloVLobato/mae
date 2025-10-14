@@ -1,0 +1,1 @@
+web: java -XX:+UseG1GC -XX:MaxRAMPercentage=75 -jar target/bolsas-0.0.1-SNAPSHOT.jar --server.port=$PORT
